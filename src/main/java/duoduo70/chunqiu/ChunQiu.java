@@ -20,7 +20,6 @@ public class ChunQiu {
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
     public static CommonProxy proxy;
-    public static ClientProxy clientProxy;
 
     @Mod.EventHandler
     public static void PreInit(FMLPreInitializationEvent event) {
